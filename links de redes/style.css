@@ -1,0 +1,196 @@
+*{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+        background: linear-gradient(
+    to right,
+    #1500f7,
+    #ff002b
+);
+}
+.logocjr{
+    width: 90%;
+    max-width: 230px;
+    height: 200px;
+    margin: auto;
+    
+    border: solid 1px black;
+    border-radius: 100px 100px 0 0;
+    background: linear-gradient(to bottom right, white, black);
+}
+.logocjr img{
+    margin-top: -15px;
+    margin-left: 16px;
+}
+/* Texto de presentracion */
+
+main{
+    text-align: center;
+    background: rgb(214, 214, 214);
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 15px;
+    border: 3px solid black;
+    p + p{
+        background: rgb(83, 83, 83);
+        color: white;
+        width: 90%;
+        max-width: 500px;
+        margin: auto;
+        padding: 10px;
+        text-shadow: 1px 1px 1px red;
+        border-radius: 15px 15px 0 0;
+    }
+}
+.cursor{
+    width: 50px;
+    margin:auto;
+    margin-top: -40px;
+    margin-left: 300px;
+    margin-bottom: -50px;
+}
+.caja-padre{
+    width: 90%;
+    max-width: 470px;
+    margin: 25px auto 0;
+    text-align: center;
+}
+a{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+}
+.caja-padre img{
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+/* twitch */
+.caja-padre .caja-twitch{
+    border: 2px solid black;
+    background: rgb(214, 214, 214);
+    width:90%;
+    max-width: 470px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+    .link-twitch{
+        text-decoration: none;
+        color: black;
+    }
+}
+.caja-padre .caja-twitch:hover{
+    background: rgb(140, 3, 252);
+    box-shadow: 1px 1px 1px black;
+    .link-twitch:hover{
+        color:white;
+        img{
+            filter: invert(1);
+        }
+    }
+}
+/* YOUTUBE */
+
+.caja-padre .caja-youtube{
+    border: 2px solid black;
+    background: rgb(214, 214, 214);
+    width: 90%;
+    max-width: 470px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+    .link-youtube{
+        text-decoration: none;
+        color: black;
+    }
+}
+.caja-padre .caja-youtube:hover{
+    background: rgb(255, 0, 0);
+    box-shadow: 1px 1px 1px black;
+    .link-youtube:hover{
+        color:white;
+        img{
+            filter: invert(1);
+        }
+    }
+}
+/* DISCORD */
+.caja-padre .caja-discord{
+    border: 2px solid black;
+    background: rgb(214, 214, 214);
+    width: 90%;
+    max-width: 470px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+    .link-discord{
+        text-decoration: none;
+        color: black;
+    }
+}
+.caja-padre .caja-discord:hover{
+    background: rgb(88, 88, 255);
+    box-shadow: 1px 1px 1px black;
+    .link-discord:hover{
+        color:white;
+        img{
+            filter: invert(1);
+        }
+    }
+}
+/* Kick */
+.caja-kick{
+    border: 2px solid black;
+    background: rgb(214, 214, 214);
+    width: 90%;
+    max-width: 470px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+    .link-kick{
+        text-decoration: none;
+        color: black;
+    }
+}
+.caja-kick:hover{
+    background: rgb(24, 243, 16);
+    box-shadow: 1px 1px 1px black;
+    .link-kick:hover{
+        color:white;
+        img{
+            filter: invert(1);
+        }
+    }
+}
+/* instagram */
+.caja-instagram{
+    border: 2px solid black;
+    background: rgb(214, 214, 214);
+    width: 90%;
+    max-width: 470px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+    .link-instagram{
+        text-decoration: none;
+        color: black;
+    }
+}
+.caja-instagram:hover{
+    background: rgb(255, 0, 255);
+    box-shadow: 1px 1px 1px black;
+    .link-instagram:hover{
+        color:white;
+        img{
+            filter: invert(1);
+        }
+    }
+}
+/* PIE DE PAGINA */
+.pie{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
